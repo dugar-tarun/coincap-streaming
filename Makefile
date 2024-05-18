@@ -10,10 +10,6 @@ docker-down:
 run-pre-commit:
 	pre-commit run -a
 
-## List migrations for postgres
-# list-migrations:
-# 	yoyo list --database postgresql://btc_user:btc_user@localhost:5433/btc_exchange_data
-
 ## Execute migrations for postgres
 migrate:
 	yoyo apply --database postgresql://btc_user:btc_user@localhost:5433/btc_exchange_data
