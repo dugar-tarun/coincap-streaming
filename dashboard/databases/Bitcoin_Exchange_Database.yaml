@@ -1,0 +1,13 @@
+database_name: Bitcoin Exchange Database
+sqlalchemy_uri: postgresql+psycopg2://btc_user:XXXXXXXXXX@host.docker.internal:5433/btc_exchange_data
+cache_timeout: null
+expose_in_sqllab: true
+allow_run_async: false
+allow_ctas: false
+allow_cvas: false
+allow_dml: false
+allow_file_upload: false
+extra:
+  allows_virtual_table_explore: true
+uuid: a7f24975-faf8-41e1-845a-a13fd5a0f904
+version: 1.0.0

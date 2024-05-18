@@ -1,2 +1,13 @@
-# coincap-streaming
-A data engineering project to stream bitcoin exchange data in near-real time.
+## Bitcoin Exchange Data Streaming
+
+A data engineering project to stream bitcoin data from the CoinCap API.
+
+### Architecture
+
+### Migrations
+
+### Build the project
+
+### Pre Commit Hooks
+
+### Todos
