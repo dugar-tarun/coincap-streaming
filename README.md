@@ -6,7 +6,8 @@ A data engineering project to stream bitcoin data from the CoinCap API. The proj
 [CoinCap](https://docs.coincap.io) is a useful tool for real-time pricing and market activity for over 1,000 cryptocurrencies. We use the CoinCap 2.0 APIs to fetch and visualize the bitcoin exchange data.
 
 ### Architecture
-![Alt text](assets/CoinCapStreaming.drawio.png "CoinCap streaming")
+![CoinCap Streaming Architecture](assets/CoinCapStreaming.drawio.png "CoinCap streaming")
+
 ### Build the project
 - Create and activate a new virtual environment using venv by running the following commands:
 
@@ -38,3 +39,6 @@ To run the hooks on your code, run the following command.
         pre-commit run -a
 
 You only need to set this up once. For every subsequent run, the environment gets re-used.
+
+### Dashboard
+![CoinCap Dasboard](assets/dashboard.png "CoinCap Dashboard")
